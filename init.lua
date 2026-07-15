@@ -41,6 +41,10 @@ vim.o.cursorline = true
 vim.o.scrolloff = 10
 vim.o.confirm = true
 
+vim.opt.shiftwidth = 2
+vim.opt.tabstop = 2
+vim.opt.expandtab = true
+
 -- [[ Basic Keymaps ]]
 
 vim.keymap.set('n', '<Esc>', '<cmd>nohlsearch<CR>')
